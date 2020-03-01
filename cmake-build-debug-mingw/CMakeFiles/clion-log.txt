@@ -1,0 +1,17 @@
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/MinGW/bin/cc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/cpp.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Zsolt\CLionProjects\HF1
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: C:/MinGW/bin/cc.exe
+-- Check for working C compiler: C:/MinGW/bin/cc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+-- Build files have been written to: C:/Users/Zsolt/CLionProjects/HF1/cmake-build-debug-mingw
