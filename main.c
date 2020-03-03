@@ -66,10 +66,10 @@ void draw_card(struct player *dplayer, int *ddeck){
     while(ddeck[i] == -1){
         i = rand()%52;
     }
-    int j = 0;
+    int ace = 0;
     int k = dplayer->card_number++;
     dplayer->hand[k] = ddeck[i];
-    if(ddeck[i] == 11) j++;
+    if(ddeck[i] == 11) ace++;
     ddeck[i] = -1;
     dplayer->hand_value += dplayer->hand[k];
     if(dplayer->hand_value > 21 && j) dplayer->hand_value-=10;
